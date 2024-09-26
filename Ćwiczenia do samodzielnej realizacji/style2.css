@@ -19,9 +19,15 @@ nav:hover {
     background-color: lightblue;
   }
 
-main{width: 70%;
+main {width: 70%;
 min-height: 400px;
-background-color: #F0F8FF}
+background-color: #F0F8FF;
+padding: 20px;
+display: flex;
+justify-content: left;
+align-items: left;
+color: #000080
+font-size: 18px;}
 
 aside {width: 30%;
 min-height: 400px;
