@@ -45,3 +45,29 @@ font-size: 14px;
 display: flex;
 justify-content: center;
 align-items: center;}
+
+tr {
+  width: 100%;
+  background-color: gray;
+  border: 2px solid #000;
+}
+
+th {
+  background-color: steelblue;
+  color: white;
+  padding: 8px;
+  border: 2px solid #000; 
+}
+
+td {
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #000; 
+}
+
+table {
+  width: 100%;
+  max-width: 600px; 
+  border-collapse: collapse; 
+}
