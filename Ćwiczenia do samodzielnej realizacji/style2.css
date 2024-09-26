@@ -2,6 +2,12 @@ header {
    height: 120px;
     background-color: blue;
     width: 100%;
+    font-family: arial, sans-serif;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white
 }
 
 nav{ width: 100%;
