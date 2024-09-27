@@ -1,80 +1,82 @@
 header {
-   height: 120px;
-    background-color: blue;
-    width: 100%;
-    font-family: arial, sans-serif;
-    font-size: 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white
+  height: 100px;
+   background-color: blue;
+   width: 100%;
+   font-family: arial, sans-serif;
+   font-size: 32px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white
 }
 
 nav{ width: 100%;
-height: 40px;
-background-color: slateblue;
-text-decoration: none;
-color: white;}
-nav:hover {
-    background-color: lightblue;
-  }
+  height: 40px;
+  background-color: slateblue;
+  text-decoration: none;
+  color: white;}
+  nav:hover {
+      background-color: lightblue;
+    }
+  
 
 main {width: 70%;
+background-color: lightgray;
 min-height: 400px;
-background-color: #F0F8FF;
-padding: 20px;
-display: flex;
-justify-content: left;
-align-items: left;
-color: #000080;
-font-size: 18px;}
+float: left}
 
 aside {width: 30%;
-min-height: 400px;
-background-color: lightsteelblue;
-float: right;
-padding: 20px;
- 
-color:#000080;
-font-size: 18px;}
+  min-height: 400px;
+  background-color: lightsteelblue;
+  float: right;
+  color:#000080;
+  font-size: 18px;}
 
-footer {width: 100%;
-height: 60px;
-background-color: blue;
-color: white;
-font-size: 14px;
-display: flex;
-justify-content: center;
-align-items: center;}
 
-footer a {
-  color: white; 
-  text-decoration: none; 
-  text-decoration-line: underline;
-}
+  footer {width: 100%;
+      height: 60px;
+      background-color: blue;
+      color: white;
+      font-size: 14px;
+      display: flex;
+      justify-content: center;
+      align-items: center;}
+      
+      footer a {
+        color: white; 
+        text-decoration: none; 
+        text-decoration-line: underline;
+      }
+      
+      tr {
+        width: 100%;
+        background-color: gray;
+        border: 2px solid #000;
+      }
+      
+      th {
+        background-color: steelblue;
+        color: white;
+        padding: 8px;
+        border: 2px solid #000; 
+        justify-content: center;
+        align-items: center;
+      }
+      
+      td {
+        padding: 8px;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #000; 
 
-tr {
-  width: 100%;
-  background-color: gray;
-  border: 2px solid #000;
-}
-
-th {
-  background-color: steelblue;
-  color: white;
-  padding: 8px;
-  border: 2px solid #000; 
-}
-
-td {
-  padding: 8px;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid #000; 
-}
-
-table {
-  width: 100%;
-  max-width: 600px; 
-  border-collapse: collapse; 
-}
+      }
+      
+      table {
+        width: 100%;
+        max-width: 600px; 
+        border-collapse: collapse; 
+        justify-content: center;
+        align-items: center;
+      }
+      
+  
