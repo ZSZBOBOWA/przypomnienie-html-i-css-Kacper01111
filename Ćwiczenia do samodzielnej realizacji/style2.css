@@ -26,14 +26,15 @@ padding: 20px;
 display: flex;
 justify-content: left;
 align-items: left;
-color: #000080
+color: #000080;
 font-size: 18px;}
 
 aside {width: 30%;
 min-height: 400px;
 background-color: lightsteelblue;
-float: left;
+float: right;
 padding: 20px;
+ 
 color:#000080;
 font-size: 18px;}
 
